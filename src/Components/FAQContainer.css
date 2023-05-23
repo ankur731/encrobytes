@@ -1,0 +1,33 @@
+.faqContainer{
+    background-color: #f8f9fa;
+    display: flex;
+    padding: 4vw 10vw;
+    flex-direction: column;
+    justify-content: center ;
+}
+.faqContainer h2{
+    margin-bottom: 30px;
+}
+.faqContainer hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 20px;
+}
+.faqContainer p{
+    margin-bottom: 20px;
+}
+.faqContainer .alert{
+    color: rgb(243, 2, 2);
+    font-weight: 600;
+}
+.showmore{
+    background-color: #0072bd;
+    border: none;
+    margin: 20px 0;
+    border-radius: 8px;
+    align-self: center;
+
+    width: 150px;
+    padding: 12px 22px;
+}

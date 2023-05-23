@@ -1,0 +1,35 @@
+.tools{
+    padding: 4vw 10vw;
+}
+.tools h2{
+    margin-bottom: 30px;
+}
+.tools hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 20px;
+}
+.tools p{
+    margin-bottom: 30px;
+}
+.tools-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tools-container .tools-container-col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tools-container .toolsimg{
+    width: 100px;
+    margin: 15px 10px 15px 0;
+}
+@media (max-width:857px) {
+    .tools{
+        padding: 4vw 5vw;
+    }
+}

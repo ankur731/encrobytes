@@ -1,0 +1,15 @@
+.alumni{
+    padding: 4vw 10vw;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+.alumni h2{
+    margin-bottom: 30px;
+}
+.alumni hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 20px;
+}

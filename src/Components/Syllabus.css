@@ -1,0 +1,36 @@
+.syllabus{
+    padding: 4vw 10vw;
+    background-color: #f8f9fa;
+}
+.syllabus h2{
+    margin-bottom: 30px;
+}
+.syllabus hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 20px;
+}
+.syllabus h4{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.syllabusContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .syllabusContent{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width:564px) {
+    .syllabus{
+        padding: 5vw 4vw;
+        width: 90vw;
+    }
+    
+}

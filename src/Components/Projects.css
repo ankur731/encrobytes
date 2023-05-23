@@ -1,0 +1,25 @@
+.projects{
+    padding: 4vw 10vw;
+}
+.projects h2{
+    margin: 20px 0 30px 0;
+}
+.projects hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 30px;
+}
+.projects p{
+    margin-bottom: 50px;
+}
+.projectCards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width:857px) {
+    .projectCards{
+        justify-content: center;
+    }
+}

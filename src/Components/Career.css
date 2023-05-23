@@ -1,0 +1,36 @@
+.career{
+    padding: 4vw 10vw;
+    background-color: #fff;
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+.career h2{
+    margin-bottom: 30px;
+}
+.career hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 20px;
+}
+.career h4{
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.career .readmore{
+    padding: 12px 25px;
+    margin: 20px 0;
+    background-color: #0072bd;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;   
+}
+@media (max-width:857px) {
+    .career{
+        width: 85vw;
+        padding: 4vw 5vw;
+    }
+}

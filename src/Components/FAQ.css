@@ -1,0 +1,50 @@
+.faq{
+    width: 80vw;
+    padding: 15px;  
+    word-wrap: break-word;
+}
+.faq .faqHeading{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    border: 1px solid #d9d7d7;
+    box-shadow: 0 12px 14px -6px rgb(0,0,0,.15);
+}
+.faq .faqHeading:hover{
+    cursor: pointer;
+}
+.faq .faqHeading, .faqtoggle{
+    background-color: #ffffff;
+    /* width: 90%; */
+    font-size: 15px;
+    padding: 15px 30px;
+    animation: growDown 600ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+
+@media (max-width:564px) {
+    .faq{
+        width: fit-content;
+        overflow-x: hidden;
+    }
+    .faq .faqHeading, .faqtoggle{
+      
+        width: 70vw;
+        
+    }
+}

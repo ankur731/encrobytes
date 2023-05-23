@@ -1,0 +1,15 @@
+.learningCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 270px;
+    background-color: #f8f9fa;
+    padding: 30px 10px 20px 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.learningCard img{
+    width: 250px;
+    margin-top: 30px;
+}

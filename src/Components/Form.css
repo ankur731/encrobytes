@@ -1,0 +1,119 @@
+.formContainer{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw 10vw;
+    flex-wrap: wrap; */
+    background-color: #f5f6fa;
+    padding: 4vw 10vw;
+}
+.formBox{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    box-shadow: 3px 3px 4px #f3f2f2;
+    flex-wrap: wrap;
+}
+.formContainer .formBox .formBoxLeft{
+    background-color: #0072bd;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.formContainer .formBox .formBoxLeft .formBoxLeftTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+}
+.formContainer .formBox .formBoxLeft .formBoxLeftBottom{
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+}
+.formContainer .formBox .formBoxLeft .formBoxLeftBottom p, h4, h5{
+    margin: 5px ;
+}
+.formContainer .formBox .formBoxRight{
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: 10px 0;
+    
+}
+.formContainer .formBox .formBoxRight h1{
+    font-size: 23px;
+    text-align: center;
+}
+.formContainer .formBox .formBoxRight h4{
+    color: rgb(242, 2, 2);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.formContainer .formBox .formBoxRight .form{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+ 
+}
+.realForm{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.formContainer .formBox .formBoxRight .form input{
+    width: 180px;
+    height: 20px;
+   margin: 15px;  
+   padding: 7px 5px;   
+}
+.formContainer .formBox .formBoxRight .form p{
+    margin: 10px 0 20px 0;
+}
+.submitbtn{
+    padding: 12px 25px;
+    margin: 30px 0;
+    background-color: #0072bd;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+@media (max-width:915px) {
+   .formBox{
+    flex-direction: column;
+    align-items: center;
+   }
+   .formContainer .formBox .formBoxLeft{
+    width: 80vw;
+   }
+   .formContainer .formBox .formBoxRight{
+    width: 80vw;
+   }
+   .formContainer .formBox .formBoxRight .form input{
+    width: 80%;  
+}
+.formContainer .formBox .formBoxRight h1{
+    font-size: 20px;
+}
+.formContainer .formBox .formBoxRight h4{
+    font-size: 14px;
+}
+.formContainer .formBox .formBoxRight .form p{
+   font-size: 12px;
+   margin: 10px 0 0px 0;
+}
+ 
+}

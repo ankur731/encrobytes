@@ -1,0 +1,73 @@
+.highlights{
+    padding: 4vw 10vw;
+}
+.highlights h2{
+    margin: 20px 0 30px 0;
+}
+.highlights hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 30px;
+}
+.highlights .row{
+    display: flex;
+    justify-content: space-between;
+}
+.highlights .row .col{
+    flex-wrap: wrap;
+    margin: 0 5px;
+}
+.highlights .row .col ul li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.highlights .row  .highlightCard{
+    width: 300px;
+   
+    text-align: center;
+    font-size: 15px;
+    background-color: #f9f8fa;
+    padding: 40px 30px;
+    line-height: 25px;
+}
+.downloadButton{
+    padding: 10px 12px;
+    margin: 20px 0;
+    background-color: #0072bd;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+@media (max-width:815px) {
+.highlights{
+    padding: 3vw 5vw;
+}
+}
+@media (max-width:564px) {
+    .highlights{
+        padding: 2vw 3vw;
+        width: 85vw;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .highlights h2{
+        text-align: center;
+        word-wrap: normal;
+        font-size: 19px;
+    }
+    .highlights .row{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .downloadButton{
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+}

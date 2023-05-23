@@ -1,0 +1,27 @@
+.mentors{
+    padding: 4vw 10vw;
+    background-color: #f8f9fa;
+    z-index: 10;
+    overflow-x: hidden;
+}
+.mentors h2{
+    margin-bottom: 30px;
+}
+.mentors hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 20px;
+}
+.mentors p{
+    margin-bottom: 20px;
+}
+.mentors .mentorsCards{
+    display: flex;
+    justify-content: space-around;
+    overflow: scroll;
+    
+}
+.mentors .mentorsCards::-webkit-scrollbar {
+    display: none;
+  }

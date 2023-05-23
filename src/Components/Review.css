@@ -1,0 +1,23 @@
+.review{
+    padding: 4vw 10vw;
+    background-color: #f8f9fa;
+}
+.review h2{
+    margin-bottom: 30px;
+}
+.review hr{
+    width: 8%;
+    height: 2px;
+    background-color: #27aae1;
+    margin-bottom: 20px;
+}
+.review .reviewCards{
+    width: 100%;
+    min-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.review .reviewCards::-webkit-scrollbar {
+    display: none;
+  }

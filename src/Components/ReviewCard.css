@@ -1,0 +1,34 @@
+.reviewCard{
+    width: 550px;
+    min-width: 550px;
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    border-bottom: 4px solid #0072bd;
+}
+.reviewCard .row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.reviewCard .row p{
+    margin-top: 10px;
+}
+.reviewCard .row img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin:0 10px 15px 0;
+}
+.reviewCard .row .col .company{
+    width: 50px;
+    height: 30px;
+    border-radius: 0;
+}
+@media (max-width:564px){
+    .reviewCard{
+        width: 90vw;
+       min-width: 300px;
+    }
+}
